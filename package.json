@@ -4,7 +4,8 @@
   "description": "Template for typescript web projects",
   "private": true,
   "scripts": {
-    "build": "npx webpack"
+    "build": "npx webpack",
+    "start": "node build/min.out.js"
   },
   "author": "",
   "license": "ISC",
