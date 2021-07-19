@@ -18,6 +18,6 @@ module.exports = {
     },
     output: {
         filename: 'main.out.js',
-        path: path.resolve(__dirname, './web/build'),
+        path: path.resolve(__dirname, './build'),
     },
 };
