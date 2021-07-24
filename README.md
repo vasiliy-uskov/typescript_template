@@ -3,16 +3,20 @@
 Для разворачивания проекта необходимо установить [node.js](https://nodejs.org/en/download/)
 
 После скачать шаблон проекта 
-Для windows
 ```
 git clone https://github.com/vasiliy-uskov/typescript_template <project_name>
-rmdir .git
+```
+Переинициализировать git
+Для windows:
+```
+cd ./<project_name>
+rd /s .git
 git init
 git add --all
 ```
 Для Linux
 ```
-git clone https://github.com/vasiliy-uskov/typescript_template  <project_name>
+cd ./<project_name>
 rm -rf .git
 git init
 git add --all
